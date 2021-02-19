@@ -1,0 +1,63 @@
+.divleft{
+    width:45%;
+    float: left;
+    padding: 10px;
+    height:50%;
+    }
+    .divright{
+    
+      width:45%;
+      float: left;
+      padding:15px;
+      height: 20%;
+    }
+    .App {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top:0.5rem ;
+    }
+    
+    .movies {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    
+.movie {
+  width: 20rem;
+  height: 18rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  padding: 1rem;
+  position: relative;
+  border-radius: 0rem;
+  
+}
+
+.movie h2 {
+  background-color: rgba(161, 161, 161, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 2.5rem;
+  right: 2.5rem;
+  font-size:1rem;
+  font-weight: 400;
+  text-shadow: 0 0.5rem 0.5rem #555;
+  color: #fff;
+}
+
+.movie img {
+  border-radius: 0.2rem;
+  object-fit: cover;
+  height:15rem;
+}
+
+
